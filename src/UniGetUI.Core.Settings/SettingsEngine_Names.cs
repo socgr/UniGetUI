@@ -91,6 +91,7 @@ public static partial class Settings
         WinGetComApiPolicy,
         DisableClassicMode,
         DisableInstallerHostChangeWarning,
+        BunPreferLatestVersions,
 
         Test1,
         Test2,
@@ -193,6 +194,7 @@ public static partial class Settings
             K.WinGetComApiPolicy => "WinGetComApiPolicy",
             K.DisableClassicMode => "DisableClassicMode",
             K.DisableInstallerHostChangeWarning => "DisableInstallerHostChangeWarning",
+            K.BunPreferLatestVersions => "BunPreferLatestVersions",
 
             K.Test1 => "TestSetting1",
             K.Test2 => "TestSetting2",
